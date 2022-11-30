@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-color: rgb(220, 234, 247);
+}
+.blah{
+    margin-left: 10%;
+    width: 80%;
+    
+}  
+.homelist{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    margin-left: auto;
+}
+.listA{
+    margin-left: 50px;
+    color: rgb(163, 135, 233);
+}
+.frag{
+    width: 50px;
+    margin-left: 400px;
+}
+.img1{
+    margin-right: 100px;
+    width: 700px;
+    height: 700px;
+}   
+.box1{
+    display: flex;
+    list-style: none;
+   
+}
+.div3{
+    background-color: rgb(97, 163, 216);
+    margin-left: 100px;
+    width: 1200px;
+    height: 700px;
+}
+.just{
+    margin-left: 50px;
+    padding: 50px 30px 18px 0;
+    font-size: 35px;
+}
+.feel{
+    margin-left: 50px;
+    font-size: 95px;
+    padding: 15px 50 15px 0;
+    font-weight: bolder;
+}
+.brand-name{
+    color: rgb(163, 135, 233);
+}
+.homebar{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    padding: 50px 0 50px 0;
+}
+.story{
+    font-size: 15px;
+    margin-left: 50px;
+    padding: 30px 0 0 0;
+}
+.btn-get{
+    margin: 50px 0 50px 50px ;
+    padding: 20px 40px 20px 40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    font-size: 20px;
+    color: rgb(97, 163, 216);
+    border-color: white;
+    font-weight: bolder;
+}
+
+    
+    
+
