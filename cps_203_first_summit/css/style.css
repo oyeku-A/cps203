@@ -1,0 +1,154 @@
+/* general styling for all begins here */
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-color: rgb(220, 234, 247);
+}
+
+/* general styling for all ends here */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* css for navigation bar starts below */
+
+.navbar{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    padding: 50px 0 50px 0;
+}
+.brand-name{
+    color: rgb(163, 135, 233);
+}
+.brand-logo{
+    width: 50px;
+    margin-left: 3px;
+}
+.link-container{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    margin-left: auto;
+    text-transform: capitalize;
+}
+.link-container > a {
+    text-decoration: none;
+}
+.link{
+    margin-left: 50px;
+    color: rgb(163, 135, 233);
+}
+.link:hover{
+    font-size: bold;
+    color: rgb(5, 5, 85);
+}
+
+/* css for navigation bar ends here */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* css for  body  starts here */
+
+.body{
+    display: flex;
+    list-style: none; 
+}
+.text-body{
+    background-color: rgb(97, 163, 216);
+    margin-left: 100px;
+    width: 1200px;
+    height: 700px;
+}
+.txtformat1{
+    margin-left: 50px;
+    padding: 50px 30px 18px 0;
+    font-size: 35px;
+}
+.txtformat2{
+    margin-left: 50px;
+    font-size: 95px;
+    padding: 15px 50 15px 0;
+    font-weight: bolder;
+}
+.txtformat3{
+    font-size: 15px;
+    margin-left: 50px;
+    padding: 30px 0 0 0;
+}
+.button{
+    margin: 50px 0 50px 50px ;
+    padding: 20px 40px 20px 40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    font-size: 20px;
+    color: rgb(97, 163, 216);
+    border-color: white;
+    font-weight: bolder;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,101,0.3);
+}
+.img-body{
+    margin-right: 100px;
+    width: 700px;
+    height: 700px;
+}
+/* css for  body  ends here */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* css for footer starts here */
+
+footer{
+    background-color: rgb(45, 79, 107);
+    /* width: auto; */
+    height: 100px;  
+}
+.footer-div{
+    background-color: rgb(45, 79, 107);
+    margin-top: 200px;
+    display: flex;
+    list-style: none;
+}
+.brand-name-footer{
+    color: rgb(163, 135, 233);
+    margin-top: 12px;
+}
+.media-logo{
+    display: flex;
+    padding: 4px;
+    margin-top: 29px;
+    list-style-type: none;
+}
+.media-logo img{
+    width: 30px;
+}
+.media-image{
+    margin-left: 5px;
+}
+.link-container-footer{
+    list-style: none;
+    margin-left: 51px;
+    width: 627.5px;
+    padding: 10px;
+}
+.link-container-footer > a {
+    text-decoration: none;
+}
+.link-container-footer > p{
+    color: rgb(163, 135, 233);
+}
+.linkf{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(163, 135, 233);
+    margin-top: 10px;
+}
+.brand-aside > p{
+    color: rgb(163, 135, 233);
+    width: 500px;
+}
+.brand-aside {
+    margin-left: 225px;
+}
+.brand-logo-footer{
+    width: 50px;
+    width: 123px;
+    margin-left: 30px;
+    padding: 15px;
+    margin-top: 21px;
+}
